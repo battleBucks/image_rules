@@ -1,0 +1,32 @@
+service: image-rules
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: us-east-1
+
+functions:
+  aspect_ratios:
+    handler: aspect_ratio_handler.endpoint
+    events:
+      - http:
+          path: aspect_ratios
+          method: get
+  image_sizes:
+    handler: image_size_handler.endpoint
+    events:
+      - http:
+          path: image_sizes
+          method: get
+  image_types:
+    handler: image_type_handler.endpoint
+    events:
+      - http:
+          path: image_types
+          method: get
+  asset_types:
+    handler: asset_type_handler.endpoint
+    events:
+      - http:
+          path: asset_types
+          method: get
