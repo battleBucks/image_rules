@@ -22,11 +22,11 @@ module.exports.endpoint = (event, context, callback) => {
          "Program Logo": { "abbrev" : "l", "master_sizes" : ["h3","h5","h6","h7","h9","m43"]},
          "Logo": { "abbrev" : "", "master_sizes" : ["h3","h4","h5"]},
 
-         "Photo": { "abbrev" : "", "master_sizes" : ["h1","h2","h3","h5","h6","h8","h9","h10","h11","h12","h13","h14","v2","v3","v4","v5","v6","v7","v8","v9","m169","m43","m34","m21"]},
+         "Photo": { "abbrev" : "", "master_sizes" : ["hc1","vc1"]},
 
          "Photo - headshot": { "abbrev" : "", "master_sizes" : ["v2","v3","v4","v9"]},
 
-         "Poster Art": { "abbrev" : "", "master_sizes" : ["h1","h2","h3","h5","h6","h8","h9","h10","h11","h12","h13","h14","v2","v3","v4","v5","v6","v7","v8","v9","m169","m43","m34","m21"]},
+         "Poster Art": { "abbrev" : "", "master_sizes" : ["hc1","vc1"]},
 
          "Poster Art - gallery": { "abbrev" : "p", "master_sizes" : ["v2","v3","v4","v5","v6","v7","v8","v9","v10","m34","m23"]},
          "Source Logo - dark": { "abbrev" : "ld", "master_sizes" : ["h3","h4","h5","h6","h9","h15"]},
